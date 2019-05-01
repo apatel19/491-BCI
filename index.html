@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic BCI</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  </head>
+  <body>
+    <p> HIII </p>
+    
+    <div>
+        <svg id="svg-sqr" width="450" height="600"  style="border:1px solid black;"> 
+          <rect id="sq1" x="0" y="400"  width="150" height="200" style="fill:rgba(0, 0, 0, 0.788);stroke-width:3;stroke:rgb(0,0,0)" />
+          <rect id="enmy1" x="150" y="0" width ="150" height="200" style="fill:rgba(233, 36, 1, 0.788);stroke-width:3;stroke:rgb(0,0,0)" /> 
+          <rect id="enmy2" x="300" y="0" width ="150" height="200" style="fill:rgba(152, 240, 10, 0.788);stroke-width:3;stroke:rgb(0,0,0)" /> 
+
+          Sorry, your browser does not support inline SVG. 
+        </svg>
+      <!-- <svg id="svg" width="200" height="200">
+        <rect id="1" width="200" height="200" style="fill:rgb(255,0,255, 0.7);stroke-width:3;stroke:rgb(0,0,0)" />
+        Sorry, your browser does not support inline SVG. -->
+        <!-- <image id="img1" style="display: none;" xlink:href="./cross.png" x="50" y="50" height="100px" width="100px"/>
+      </svg>
+      
+       <svg width="200" height="200">
+        <rect id="2" width="200" height="200" style="fill:rgb(255,0,255, 0.7);stroke-width:3;stroke:rgb(0,0,0)" />
+        Sorry, your browser does not support inline SVG.  
+      </svg>
+      <svg width="200" height="200">
+        <rect id="3" width="200" height="200" style="fill:rgb(255,0,255, 0.7);stroke-width:3;stroke:rgb(0,0,0)" />
+        Sorry, your browser does not support inline SVG.  
+      </svg>
+       <br>
+       <svg width="200" height="200">
+        <rect id="4" width="200" height="200" style="fill:rgb(255,0,255, 0.7);stroke-width:3;stroke:rgb(0,0,0)" />
+        Sorry, your browser does not support inline SVG.  
+      </svg>
+      <svg width="200" height="200">
+        <rect id="5" width="200" height="200" style="fill:rgb(255,0,255, 0.7);stroke-width:3;stroke:rgb(0,0,0)" />
+        Sorry, your browser does not support inline SVG.  
+      </svg>
+      <svg width="200" height="200">
+        <rect id="6" width="200" height="200" style="fill:rgb(255,0,255, 0.7);stroke-width:3;stroke:rgb(0,0,0)" />
+        Sorry, your browser does not support inline SVG.  
+      </svg>
+      <br>
+      <svg width="200" height="200">
+        <rect id="7" width="200" height="200" style="fill:rgb(255,0,255, 0.7);stroke-width:3;stroke:rgb(0,0,0)" />
+        Sorry, your browser does not support inline SVG.  
+      </svg>
+      <svg width="200" height="200">
+        <rect id="8" width="200" height="200" style="fill:rgb(255,0,255, 0.7);stroke-width:3;stroke:rgb(0,0,0)" />
+        Sorry, your browser does not support inline SVG.  
+      </svg>
+      <svg width="200" height="200">
+        <rect id="9" width="200" height="200" style="fill:rgb(255,0,255, 0.7);stroke-width:3;stroke:rgb(0,0,0)" />
+        Sorry, your browser does not support inline SVG.  
+      </svg> -->
+    </div>
+    <div id="myDiv"><!-- Plotly chart will be drawn inside this DIV --></div>
+  </body>
+  <script type="text/javascript" src="js/three.min.js"></script>
+  <script type="text/javascript" src="js/nodesocket.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</html>
